@@ -1,0 +1,10 @@
+{
+  "name": "calculadora-online",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test tests/calculations.test.cjs tests/core.test.cjs",
+    "test:browser": "node tests/browser.test.cjs"
+  }
+}
